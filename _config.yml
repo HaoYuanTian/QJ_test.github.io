@@ -6,10 +6,10 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Lorem ipsum"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-repository               : "RayeRen/acad-homepage.github.io"
-google_scholar_stats_use_cdn : true
+title                    : "Jie Qi" # Browser/SEO title (not the nav label)
+description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. " # Sidebar author card blurb + SEO description
+repository               : "RayeRen/acad-homepage.github.io" # GitHub "owner/repo" for links and metadata
+google_scholar_stats_use_cdn : true # Use CDN for scholar stats assets
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
@@ -21,34 +21,34 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Thy"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Lorem ipsum College"
-  location         : "Beijing, China"
-  employer         :
-  pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "Lorem@ipsum.com"
+  name             : "Jie Qi" # Sidebar author name
+  avatar           : "images/android-chrome-512x512.png" # Sidebar avatar image
+  bio              : "Donghua University" # Sidebar author bio
+  location         : "Shanghai, China" # Sidebar location line
+  employer         : # Sidebar employer line
+  pubmed           : # Sidebar social link
+  googlescholar    : "https://scholar.google.com/citations?user=gvp5ojgAAAAJ&hl=zh-CN&oi=ao" # Sidebar social link
+  email            : "jieqi@dhu.edu.cn" # Sidebar contact link
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              :
+  uri              : # Sidebar website link
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : # Sidebar social link
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
+  linkedin         : # Sidebar social link
+  dblp             : # Sidebar social link
+  orcid            : # Sidebar social link
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : # Sidebar social link
   steam            :
   tumblr           :
   twitter          : 
@@ -94,7 +94,7 @@ exclude:
 keep_files:
   - .git
   - .svn
-encoding: "utf-8"
+encoding: "utf-8" # Ensure consistent output encoding
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
@@ -115,7 +115,7 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+  enable_coderay: false # Use Rouge instead of CodeRay
 
 # Defaults
 defaults:
@@ -131,12 +131,12 @@ defaults:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed # Minify compiled CSS
 
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai # Affects date rendering
 
 
 # Plugins
