@@ -1,54 +1,54 @@
-# Welcome to Jekyll!
+# 欢迎使用 Jekyll!
 #
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# 这个配置文件用于影响全站的设置，通常只需要设置一次，
+# 之后很少改动。
+# 出于技术原因，使用 `jekyll serve` 时该文件不会自动重载。
+# 如果修改了它，请重启服务进程。
 
-# Site Settings
-title                    : "Jie Qi" # Browser/SEO title (not the nav label)
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. " # Sidebar author card blurb + SEO description
-repository               : "RayeRen/acad-homepage.github.io" # GitHub "owner/repo" for links and metadata
-google_scholar_stats_use_cdn : true # Use CDN for scholar stats assets
+# 站点设置
+title                    : "Jie Qi" # 浏览器/SEO 标题（不是导航栏标签）
+description              : "I am a professor" # 侧栏作者卡片简介 + SEO 描述
+repository               : "HaoYuanTian/HaoYuanTian.github.io" # GitHub "owner/repo"，用于链接和元数据
+# google_scholar_stats_use_cdn : true # 通过 CDN 加载 Scholar 统计资源
 
-# google analytics
-google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
+# Google Analytics
+google_analytics_id      :  # 从 https://analytics.google.com/analytics/ 获取
 
-# SEO Related
-google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
-bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
-baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
+# SEO 相关
+google_site_verification :  # 从 https://search.google.com/search-console/about 获取
+bing_site_verification   :  # 从 https://www.bing.com/webmasters/about 获取
+baidu_site_verification  :  # 从 https://ziyuan.baidu.com/login/index?u=/site/index 获取
 
-# Site Author
+# 作者信息
 author:
-  name             : "Jie Qi" # Sidebar author name
-  avatar           : "images/android-chrome-512x512.png" # Sidebar avatar image
-  bio              : "Donghua University" # Sidebar author bio
-  location         : "Shanghai, China" # Sidebar location line
-  employer         : # Sidebar employer line
-  pubmed           : # Sidebar social link
-  googlescholar    : "https://scholar.google.com/citations?user=gvp5ojgAAAAJ&hl=zh-CN&oi=ao" # Sidebar social link
-  email            : "jieqi@dhu.edu.cn" # Sidebar contact link
-  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              : # Sidebar website link
+  name             : "Jie Qi" # 侧栏作者姓名
+  avatar           : "images/android-chrome-512x512.png" # 侧栏头像
+  bio              : "Donghua University" # 侧栏作者简介
+  location         : "Shanghai, China" # 侧栏位置
+  employer         : # 侧栏单位/机构
+  pubmed           : # 侧栏社交链接
+  googlescholar    : "https://scholar.google.com/citations?user=gvp5ojgAAAAJ&hl=zh-CN&oi=ao" # 侧栏社交链接
+  email            : "jieqi@dhu.edu.cn" # 侧栏邮箱链接
+  researchgate     :  # 例如 "https://www.researchgate.net/profile/yourprofile"
+  uri              : # 侧栏个人网站链接
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : # Sidebar social link
+  github           : # 侧栏社交链接
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : # 例如 "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : # Sidebar social link
-  dblp             : # Sidebar social link
-  orcid            : # Sidebar social link
+  linkedin         : # 侧栏社交链接
+  dblp             : # 侧栏社交链接
+  orcid            : # 侧栏社交链接
   pinterest        :
   soundcloud       :
-  stackoverflow    : # Sidebar social link
+  stackoverflow    : # 侧栏社交链接
   steam            :
   tumblr           :
   twitter          : 
@@ -59,7 +59,7 @@ author:
   wikipedia        :
 
 
-# Reading Files
+# 读取文件
 include:
   - .htaccess
   - _pages
@@ -94,11 +94,11 @@ exclude:
 keep_files:
   - .git
   - .svn
-encoding: "utf-8" # Ensure consistent output encoding
+encoding: "utf-8" # 确保输出编码一致
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
-# Conversion
+# 转换
 markdown: kramdown
 highlighter: rouge
 lsi: false
@@ -106,7 +106,7 @@ excerpt_separator: "\n\n"
 incremental: false
 
 
-# Markdown Processing
+# Markdown 处理
 kramdown:
   input: GFM
   hard_wrap: false
@@ -115,9 +115,9 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false # Use Rouge instead of CodeRay
+  enable_coderay: false # 使用 Rouge 代替 CodeRay
 
-# Defaults
+# 默认值
 defaults:
   # _pages
   - scope:
@@ -131,22 +131,22 @@ defaults:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # Minify compiled CSS
+  style: compressed # 压缩编译后的 CSS
 
 
-# Outputting
+# 输出
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # Affects date rendering
+timezone: Asia/Shanghai # 影响日期显示
 
 
-# Plugins
+# 插件
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
-# mimic GitHub Pages with --safe
+# 使用 --safe 时模拟 GitHub Pages
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
@@ -155,7 +155,7 @@ whitelist:
   - jemoji
 
 
-# HTML Compression
+# HTML 压缩
 # - http://jch.penibelst.de/
 compress_html:
   clippings: all
