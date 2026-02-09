@@ -7,7 +7,7 @@
 
 # 站点设置
 title                    : "Jie Qi" # 浏览器/SEO 标题（不是导航栏标签）
-#description              : "I am a professor" # 侧栏作者卡片简介 + SEO 描述
+description              : "Donghua University" # 侧栏作者卡片简介 + SEO 描述
 repository               : "HaoYuanTian/HaoYuanTian.github.io" # GitHub "owner/repo"，用于链接和元数据
 # google_scholar_stats_use_cdn : true # 通过 CDN 加载 Scholar 统计资源
 
@@ -24,8 +24,8 @@ author:
   name             : "Jie Qi" # 侧栏作者姓名
   avatar           : "images/android-chrome-512x512.png" # 侧栏头像
   bio              :  # 侧栏作者简介
-  location         : "Address: Building 2, Room 2221,<br>No 2999 North Renmin Road, Songjiang,<br>Shanghai, China" # 侧栏位置
-  employer         : "Department of Automation,<br>School of Information and Intelligent Science,<br>Donghua University" # 侧栏单位/机构
+  location         : "Building 2, Room 2221,<br>No 2999 North Renmin Road, Songjiang,<br>Shanghai, China" # 侧栏位置
+  employer         : # 侧栏单位/机构
   pubmed           : # 侧栏社交链接
   googlescholar    : "https://scholar.google.com/citations?user=gvp5ojgAAAAJ&hl=zh-CN&oi=ao" # 侧栏社交链接
   email            : "jieqi@dhu.edu.cn" # 侧栏邮箱链接
