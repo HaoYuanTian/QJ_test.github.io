@@ -86,6 +86,14 @@ My research interests include control and estimation of partial differential equ
 - Project 3: PDE-Based Modeling and Formation Control for Large Scale Collective Systems with Time-Delay and Time-Varying. National Natural Science Foundation of China (NSFC), 61773112, 2018.1-2021.12, Principal Investigator, RMB 722,800
 
 
+<!-- 教学 -->
+# 📚 Teaching
+- Automation Control Theory, Undergraduate, Spring 05, 06, 08-11, 12-18, 20-23, 25-
+- Mathematical modeling and Mathematical experiments, Undergraduate, Fall 05, 06, 08-18, 20
+- Modern Control Theory, Graduated, Spring 09, 11, 12, 15, 25
+- Special topics in theory and technology of complex system modeling, Graduated, Fall 15-18, 20-23, 25-
+
+
 <!-- 论文列表 -->
 # 📝 Publications 
 
